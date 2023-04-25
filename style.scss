@@ -1,1 +1,294 @@
 @import "reset";
+
+#trip {
+  padding: 8% 0;
+
+  .trip {
+    @include between;
+
+    &--one {
+      h2 {
+        color: #474747;
+        padding: 10px 0 10px 0;
+      }
+
+      h3 {
+        color: #666666;
+      }
+
+      p {
+        color: #666666;
+        margin-bottom: 30px;
+      }
+
+
+      &__choose {
+        ion-icon {
+          color: #666666;
+        }
+      }
+    }
+
+    &--two {
+      &__box1 {
+        padding: 0 21px;
+        @include between;
+        align-items: center;
+        position: absolute;
+        width: 167px;
+        height: 80px;
+        left: 82%;
+        top: 10%;
+        background: #FFFFFF;
+        border-radius: 8px;
+      }
+
+      &__box2 {
+        padding: 0 23px;
+        @include between;
+        align-items: center;
+        position: absolute;
+        width: 167px;
+        height: 80px;
+        left: 82%;
+        top: 25%;
+        background: #FFFFFF;
+        border-radius: 8px;
+      }
+
+      &__box3 {
+        position: absolute;
+        width: 277px;
+        height: 156px;
+        left: 55%;
+        top: 70%;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px 2px rgba(162, 160, 160, 0.15);
+        border-radius: 8px;
+        padding: 10px 0 0 10px;
+
+        h3 {
+          color: #474747;
+        }
+
+        h5 {
+          color: blue;
+        }
+
+        span {
+          color: #DB6300;
+          margin: 0 41px;
+        }
+      }
+    }
+  }
+}
+
+#view {
+  padding: 50px 0;
+
+  .view {
+    &--main {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h3 {
+        color: #666666;
+      }
+
+      h1 {
+        font-size: 30px;
+        padding: 15px;
+      }
+    }
+
+    &--one {
+
+      &__first {
+        @include between;
+
+        &--blue {
+          position: absolute;
+          background: #0600AE;
+          width: 154px;
+          left: 4%;
+          height: 154px;
+          top: 148%;
+          border-radius: 80px;
+        }
+
+        img {
+          position: absolute;
+          top: 157%;
+          left: 10%;
+          border-radius: 26px;
+          z-index: 99;
+          border: 5px dashed #29DBCC;
+        }
+
+        &--aqua {
+          position: absolute;
+          width: 370px;
+          height: 370px;
+          left: 24%;
+          top: 185%;
+          background: #3793D8;
+          border-radius: 210px;
+        }
+      }
+
+      &__second {
+        padding: 15% 0;
+        margin: 0 0 0 26%;
+
+        .fa-quote-left {
+          color: #29DBCC;
+          font-size: 50px;
+        }
+
+        //.fa-quote-left:nth-child(2){
+        //  display: flex;
+        //  justify-content: right;
+        //}
+        ion-icon {
+          color: orange;
+          font-size: 25px;
+        }
+
+        h4 {
+          color: #666666;
+        }
+
+        p {
+          color: #666666;
+          margin-bottom: 30px;
+        }
+
+        h3 {
+          color: #3793D8;
+        }
+      }
+    }
+  }
+}
+
+
+#get {
+  padding: 30px 0;
+
+  .get {
+    &--info {
+      padding: 60px 0;
+      @include around;
+
+      &__one {
+        @include column;
+        justify-content: center;
+        width: 570px;
+        height: 479px;
+        padding: 0 30px;
+        background: #F7F7F8;
+        opacity: 0.8;
+        border-radius: 24px;
+      }
+
+      input {
+        color: #CACACA;
+        margin-bottom: 70px;
+        border: none;
+        background: none;
+        font-weight: 500;
+        font-size: 25px;
+        border-bottom: 1px solid #666666;
+      }
+      button {
+        background: #0600AE;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+        color: white;
+      }
+    }
+
+    &--main {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h1, h5 {
+        color: #474747;
+      }
+
+      h1 {
+        padding: 15px 0;
+        font-size: 30px;
+      }
+
+      p {
+        color: #666666;
+      }
+    }
+
+  }
+}
+#footer {
+  background: url("../img/footer.png");
+  .footer{
+    padding: 55px 0;
+    &--main{
+      @include center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      h1{
+        color: white;
+      }
+      p{
+        padding: 20px 0;
+        color: white;
+      }
+      input{
+        background: #FFFBFA;
+        border-radius: 16px;
+        border: none;
+        padding: 20px 255px;
+        display: flex;
+      }
+    }
+    &--pro{
+      border-bottom: 1px solid white;
+      padding: 60px 0;
+      @include around;
+      h1{
+        margin-bottom: 14px;
+        font-size: 25px;
+        color: white;
+      }
+      p{
+        color: white;
+      }
+      h3{
+        font-weight: 400;
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

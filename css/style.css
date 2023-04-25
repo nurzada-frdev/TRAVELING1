@@ -3,4 +3,260 @@ body {
   background: white;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+#trip {
+  padding: 8% 0;
+}
+#trip .trip {
+  display: flex;
+  justify-content: space-between;
+}
+#trip .trip--one h2 {
+  color: #474747;
+  padding: 10px 0 10px 0;
+}
+#trip .trip--one h3 {
+  color: #666666;
+}
+#trip .trip--one p {
+  color: #666666;
+  margin-bottom: 30px;
+}
+#trip .trip--one__choose ion-icon {
+  color: #666666;
+}
+#trip .trip--two__box1 {
+  padding: 0 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 167px;
+  height: 80px;
+  left: 82%;
+  top: 10%;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+#trip .trip--two__box2 {
+  padding: 0 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 167px;
+  height: 80px;
+  left: 82%;
+  top: 25%;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+#trip .trip--two__box3 {
+  position: absolute;
+  width: 277px;
+  height: 156px;
+  left: 55%;
+  top: 70%;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 2px rgba(162, 160, 160, 0.15);
+  border-radius: 8px;
+  padding: 10px 0 0 10px;
+}
+#trip .trip--two__box3 h3 {
+  color: #474747;
+}
+#trip .trip--two__box3 h5 {
+  color: blue;
+}
+#trip .trip--two__box3 span {
+  color: #DB6300;
+  margin: 0 41px;
+}
+
+#view {
+  padding: 50px 0;
+}
+#view .view--main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#view .view--main h3 {
+  color: #666666;
+}
+#view .view--main h1 {
+  font-size: 30px;
+  padding: 15px;
+}
+#view .view--one__first {
+  display: flex;
+  justify-content: space-between;
+}
+#view .view--one__first--blue {
+  position: absolute;
+  background: #0600AE;
+  width: 154px;
+  left: 4%;
+  height: 154px;
+  top: 148%;
+  border-radius: 80px;
+}
+#view .view--one__first img {
+  position: absolute;
+  top: 157%;
+  left: 10%;
+  border-radius: 26px;
+  z-index: 99;
+  border: 5px dashed #29DBCC;
+}
+#view .view--one__first--aqua {
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  left: 24%;
+  top: 185%;
+  background: #3793D8;
+  border-radius: 210px;
+}
+#view .view--one__second {
+  padding: 15% 0;
+  margin: 0 0 0 26%;
+}
+#view .view--one__second .fa-quote-left {
+  color: #29DBCC;
+  font-size: 50px;
+}
+#view .view--one__second ion-icon {
+  color: orange;
+  font-size: 25px;
+}
+#view .view--one__second h4 {
+  color: #666666;
+}
+#view .view--one__second p {
+  color: #666666;
+  margin-bottom: 30px;
+}
+#view .view--one__second h3 {
+  color: #3793D8;
+}
+
+#get {
+  padding: 30px 0;
+}
+#get .get--info {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+}
+#get .get--info__one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 570px;
+  height: 479px;
+  padding: 0 30px;
+  background: #F7F7F8;
+  opacity: 0.8;
+  border-radius: 24px;
+}
+#get .get--info input {
+  color: #CACACA;
+  margin-bottom: 70px;
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 25px;
+  border-bottom: 1px solid #666666;
+}
+#get .get--info button {
+  background: #0600AE;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  color: white;
+}
+#get .get--main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#get .get--main h1, #get .get--main h5 {
+  color: #474747;
+}
+#get .get--main h1 {
+  padding: 15px 0;
+  font-size: 30px;
+}
+#get .get--main p {
+  color: #666666;
+}
+
+#footer {
+  background: url("../img/footer.png");
+}
+#footer .footer {
+  padding: 55px 0;
+}
+#footer .footer--main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#footer .footer--main h1 {
+  color: white;
+}
+#footer .footer--main p {
+  padding: 20px 0;
+  color: white;
+}
+#footer .footer--main input {
+  background: #FFFBFA;
+  border-radius: 16px;
+  border: none;
+  padding: 20px 255px;
+  display: flex;
+}
+#footer .footer--pro {
+  border-bottom: 1px solid white;
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+}
+#footer .footer--pro h1 {
+  margin-bottom: 14px;
+  font-size: 25px;
+  color: white;
+}
+#footer .footer--pro p {
+  color: white;
+}
+#footer .footer--pro h3 {
+  font-weight: 400;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
