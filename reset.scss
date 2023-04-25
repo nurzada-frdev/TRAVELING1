@@ -2,3 +2,42 @@ body{
   font-family: 'Inter',sans-serif;
   background: white;
 }
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+@mixin between{
+  display: flex;
+  justify-content: space-between;
+}
+@mixin around{
+  display: flex;
+  justify-content: space-around;
+}
+@mixin center{
+  display: flex;
+  justify-content: center;
+}
+@mixin alignCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border: none;
+}
+@mixin hover{
+  transition: 2s;
+  transform: scale(1.1);
+}
+@mixin column{
+  display: flex;
+  flex-direction: column;
+}
